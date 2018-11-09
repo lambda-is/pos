@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 Lambda IS DOOEL
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr=".">
+            <script type="text/javascript" src="/pos_proxy_http_error/static/src/js/chrome.js"/>
+        </xpath>
+    </template>
+
+</odoo>
