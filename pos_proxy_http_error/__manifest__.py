@@ -22,4 +22,7 @@
     "data": [
         "templates/assets.xml",
     ],
+    'qweb': [
+        'static/src/xml/pos.xml',
+    ],
 }
